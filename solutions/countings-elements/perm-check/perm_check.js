@@ -8,7 +8,7 @@ function solution(A) {
     let container = -1;
 
     while (counter < length) {
-        container = A[container]; 
+        container = A[container];
 
         if (foundElement[container]) {
             continue;
